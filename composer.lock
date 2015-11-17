@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "52fe3fae1bb426b16029cc1a078a9ab8",
-    "content-hash": "e12c4802b4732212368afb2ccee2159d",
+    "hash": "19fdf7fa6fb50cbfea27fb80f3596048",
+    "content-hash": "09d79dc311199688d7f62b0a324e08ca",
     "packages": [
         {
             "name": "pimple/pimple",
@@ -479,6 +479,60 @@
                 "url"
             ],
             "time": "2015-10-27 15:38:06"
+        },
+        {
+            "name": "tedivm/stash",
+            "version": "v0.13.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/tedious/Stash.git",
+                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/tedious/Stash/zipball/e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
+                "reference": "e8ecfe8cbbbbb2345b6fb59c56f825685f7a2cb1",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "fabpot/php-cs-fixer": "^1.9",
+                "phpunit/phpunit": "4.7.*",
+                "satooshi/php-coveralls": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Stash\\": "src/Stash/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Robert Hafner",
+                    "email": "tedivm@tedivm.com"
+                },
+                {
+                    "name": "Josh Hall-Bachner",
+                    "email": "charlequin@gmail.com"
+                }
+            ],
+            "description": "The place to keep your cache.",
+            "homepage": "http://github.com/tedious/Stash",
+            "keywords": [
+                "apc",
+                "cache",
+                "caching",
+                "memcached",
+                "redis",
+                "sessions"
+            ],
+            "time": "2015-08-02 06:31:49"
         }
     ],
     "packages-dev": [
